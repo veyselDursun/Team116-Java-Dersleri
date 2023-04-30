@@ -19,6 +19,7 @@ public class C06_Varargs {
         System.out.println("sayilarin toplami : " + (sayi1+sayi2+sayi3));
     }
     private static void topla(int sayi1, int sayi2) {
+
         System.out.println("sayilarin toplami : " + (sayi1+sayi2));
     }
 }

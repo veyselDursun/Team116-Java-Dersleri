@@ -7,13 +7,12 @@ public class C05_Period {
 
     public static void main(String[] args) {
 
-        LocalDate dogumtarihi= LocalDate.of(1995,6,8);
+        LocalDate dogumtarihi= LocalDate.of(1979,7,5);
         LocalDate bugun= LocalDate.now();
-        Period yasEnes = Period.between(dogumtarihi,bugun);
+        Period yasVeysel = Period.between(dogumtarihi,bugun);
 
-        System.out.println(yasEnes); // P 27Y 10M 17D
-
-        System.out.println("Enes'in yasi : "+yasEnes.getYears());
+        System.out.println(yasVeysel); //P 43Y 9M 25D
+        System.out.println("Veysel'in yasi : "+yasVeysel.getYears());
 
     }
 }
