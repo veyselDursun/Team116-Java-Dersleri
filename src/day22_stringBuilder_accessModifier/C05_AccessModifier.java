@@ -2,7 +2,7 @@ package day22_stringBuilder_accessModifier;
 
 public class C05_AccessModifier {
 
-    C05_AccessModifier (){
+    public C05_AccessModifier (){
     }
     private String privateStr;
     String defaultStr;
