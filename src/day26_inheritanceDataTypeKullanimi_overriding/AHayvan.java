@@ -1,5 +1,4 @@
-package day26_InheritanceDataTypeKullanimi;
-
+package day26_inheritanceDataTypeKullanimi_overriding;
 public class AHayvan {
 
     String hareket= "hareket ederler";
@@ -7,4 +6,5 @@ public class AHayvan {
     String beslenme= "beslenirler";
     String cogalma= "cogalirlar";
     String omur= "yasar ve olurler";
+
 }

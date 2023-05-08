@@ -1,6 +1,6 @@
-package day26_InheritanceDataTypeKullanimi;
+package day26_inheritanceDataTypeKullanimi_overriding;
 
-public class EKuslar extends DHayvan {
+public class EKuslar extends DHayvan{
 
     public void kanat(){
         System.out.println("kanatlidirlar");

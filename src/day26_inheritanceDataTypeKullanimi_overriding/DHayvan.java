@@ -1,5 +1,4 @@
-package day26_InheritanceDataTypeKullanimi;
-
+package day26_inheritanceDataTypeKullanimi_overriding;
 public class DHayvan {
 
     public void hareket(){
@@ -17,7 +16,4 @@ public class DHayvan {
     public void omur(){
         System.out.println("yasar ve olurler");
     }
-
-
-
 }
