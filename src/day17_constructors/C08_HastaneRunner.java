@@ -1,6 +1,7 @@
 package day17_constructors;
 
 public class C08_HastaneRunner {
+
     public static void main(String[] args) {
         C07_Hastane per1 = new C07_Hastane();
         System.out.println("Ism : " + per1.personelIsmi +
