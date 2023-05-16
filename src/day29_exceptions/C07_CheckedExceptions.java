@@ -32,7 +32,7 @@ public class C07_CheckedExceptions {
                Bunun icin method signature'na
                throws FileNotFoundException   aciklamasi eklenir.
          */
-        String dosyaYolu= "src/day29_exceptions/deneme.txt";
+        String dosyaYolu= "src/day29_exceptions/deneme.txt.txt";
         FileInputStream fis = new FileInputStream(dosyaYolu);
     }
 }
