@@ -35,23 +35,41 @@ public class C04_Iterator {
             System.out.print(eachElement+2+" ");
         }
         // degerleri 2 artirip yazdirdik ama list degisti mi ? HAYIR
+
         System.out.println("\n"+sayilar);
+
         // for-each kullanarak list'in elementlerini 2 artirip
+
         // list'in yeni degerlerini kaydedin
+
         for (Integer eachElement:sayilar
         ) {
             eachElement +=2;
         }
         System.out.println(sayilar); // [7, 14, 5, 11]
         Iterator itr = sayilar.iterator();
+
+        /*
         itr.next();
         itr.remove();
+
         itr.next();
         itr.remove();
+
         itr.next();
         itr.remove();
+
         itr.next();
         itr.remove();
+        */
+
+        // Yukaridaki 8 satirli kodlarin yerine asagidaki while dongusunu kullanabiliriz.
+
+        while (itr.hasNext()){
+            itr.next();
+            itr.remove();
+        }
+
         System.out.println(sayilar); // []
     }
 }
