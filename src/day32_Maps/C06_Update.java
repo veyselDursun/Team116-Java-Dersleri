@@ -2,6 +2,7 @@ package day32_Maps;
 import java.util.Map;
 public class C06_Update {
     public static void main(String[] args) {
+
         Map<Integer, String> ogrenciMap = MapMethodlar.ogrenciMapOlustur();
         // numarasi verilen ogrencinin soyismini, yeni verilen deger ile update edin
         /*

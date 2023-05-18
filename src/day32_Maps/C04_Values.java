@@ -19,17 +19,20 @@ public class C04_Values {
             }
          */
         // tum ogrencilerin sadece value'larini yazdirin
+
         System.out.println(ogrenciMap.values());
         /*
-            [
+            {
             Ali-Can-11-H-MF,
             Veli-Cem-10-K-TM,
             Ali-Cem-11-K-TM,
             Ayse-Can-10-H-MF,
             Sevgi-Cem-11-M-TM,
-            Sevgi-Can-10-K-MF]
+            Sevgi-Can-10-K-MF
+            }
          */
         // istenen siniftaki tum ogrencilerin isim ve soyismlerini yazdirin
+
         MapMethodlar.istenenSiniftakiOgrencileriYazdir(ogrenciMap,10);
 
         // verilen soyisme sahip tum ogrencileri yazdirin
