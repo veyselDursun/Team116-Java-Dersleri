@@ -8,8 +8,9 @@ public class C01_MapOlusturma {
 
         // coklu element barindiran collections olusturma
         List<String> liste = new ArrayList<>();
-        Set<Integer> sayiSeti = new HashSet<>();
         liste.add("4");
+
+        Set<Integer> sayiSeti = new HashSet<>();
         sayiSeti.add(34);
 
         // Map her zaman key-value ikilisi barindirir
@@ -33,6 +34,7 @@ public class C01_MapOlusturma {
         // Map'de tum bilgiler String olarak birlestirilen value icerisindedir
         // String'deki bir bilgiye direk ulasamayiz
         // manipulation yapip istedigimiz bilgiye ulasmaliyiz
+
         // 1- once istenen ogrencinin value'sunu bulalim ve kaydedelim
         String value103= ogrenciMap.get(103); // Ali-Cem-11-K-TM
 
