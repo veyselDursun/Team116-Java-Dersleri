@@ -4,8 +4,6 @@ import java.util.TreeMap;
 
 public class C07_Compute {
 
-
-
     public static void main(String[] args) {
         Map<String,Integer> harfKullanimSayilari = new TreeMap<>();
 
@@ -32,6 +30,7 @@ public class C07_Compute {
         }
 
         System.out.println(harfKullanimSayilari); // {A=40, C=25, K=10, M=23, Z=32}
+                                                  // B olmadigi icin degismedi
 
 
         /*
@@ -50,7 +49,7 @@ public class C07_Compute {
 
         // B varsa degerini 3 artirin
 
-        harfKullanimSayilari.computeIfPresent("B",(k,v)-> v+3);
+        harfKullanimSayilari.computeIfPresent("B",(k,v)-> v+3); // k,v yerine baska harflerde olur a,b gibi
         harfKullanimSayilari.computeIfPresent("M",(k,v)-> v+3);
         System.out.println(harfKullanimSayilari); // {A=80, C=25, K=10, M=26, Z=32}
 
