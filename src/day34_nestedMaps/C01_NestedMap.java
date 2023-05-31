@@ -76,7 +76,6 @@ public class C01_NestedMap {
         System.out.println(ogrenciMap.get(101));
         // {sinif=11, sube=H, soyisim=Can, brans=MF, isim=Ali}
 
-
         // 102 numarali ogrencinin soyismini yazdirin
         System.out.println(ogrenciMap.get(102).get("soyisim")); // Cem
 
