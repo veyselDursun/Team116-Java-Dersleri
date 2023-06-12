@@ -26,7 +26,7 @@ public class C04_TreeMap {
         // {120=Veli Cem}
 
         // sadece sinirlar yazilirsa baslangic dahil, bitis haric olur
-        // ama istersek baslangiv ve bitisin dahil olup olmamasini boolean degerler ile belirleyebiliriz
+        // ama istersek baslangic ve bitisin dahil olup olmamasini boolean degerler ile belirleyebiliriz
 
 
         System.out.println(ogrenciMap.descendingMap());// {140=Yusuf San, 120=Veli Cem, 103=Ali Can, 101=Akif Han}

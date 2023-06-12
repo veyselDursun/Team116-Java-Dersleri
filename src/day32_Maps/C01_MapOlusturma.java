@@ -2,11 +2,14 @@ package day32_Maps;
 import java.util.*;
 public class C01_MapOlusturma {
     public static void main(String[] args) {
+
         // variable olusturma
+
         int sayi = 5 ;
         String str= "Java Candir";
 
         // coklu element barindiran collections olusturma
+
         List<String> liste = new ArrayList<>();
         liste.add("4");
 
@@ -16,6 +19,7 @@ public class C01_MapOlusturma {
         // Map her zaman key-value ikilisi barindirir
         // bu ozelligi sebebiyle Map olustururken
         // key ve value'nun data turleri yazilmalidir
+
         Map<Integer,String> ogrenciMap= new HashMap<>();
         ogrenciMap.put(101,"Ali-Can-11-H-MF");
         ogrenciMap.put(102,"Veli-Cem-10-K-TM");
